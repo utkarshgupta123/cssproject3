@@ -1,0 +1,250 @@
+body{
+    top: 0px;
+    left: 0px;
+    /* right: 0px; */
+    background-color: #3D087b ;
+    /* height: 849px;
+    width: 1336px; */
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    top: 149px;
+    left: 124px;
+    width: 566px;
+    height: 363px;
+    display: grid;
+    position: relative;
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    border-radius: 10px;
+}
+.one{
+display: grid;
+grid-template-columns: 34px 141px 281px;
+margin: 10px ;
+justify-content: space-evenly;
+}
+
+#instructions{
+    width: 281px;
+    height: 45px;
+    border-radius: 4px ;
+    color: gray;
+}
+#ty{
+    color: #3D087b;
+    font-size: 17px;
+}
+.bnm{
+    position: absolute;
+    top: 34px;
+left: 124px;
+width: 204px;
+height: 77px;
+background: transparent url('img/clock_logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.kl{
+    position: absolute;
+    top: 527px;
+left: 124px;
+width: 566px;
+height: 77px;
+background-color: #8E53F0;
+/* border: 1px solid #511313; */
+border-radius: 10px;
+opacity:0.9;
+color: white;
+}
+.kl h1{
+    margin-left: 30px;
+    
+}
+.wow{
+    position: absolute;
+    top: 624px;
+left: 124px;
+width: 299px;
+height: 50px;
+background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+border-radius: 4px;
+opacity: 1;
+color: white;
+font-size: 25px;
+/* text-align: center; */
+}
+.wow p{
+    position: relative;
+    margin-top: 0;
+    top: 10px;
+    left: 90px;
+    width: 111px;
+    height: 31px;
+    text-align: center;
+}
+.wow:hover::after{
+    content: attr(data-hover);
+    top: 624px;
+    left: 124px;
+    width: 299px;
+    height: 50px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+    font-size: 25px;
+  
+}
+.sceneimg{
+    position: absolute;
+    top: 345px;
+left: 707px;
+width: 536px;
+height: 341px;
+}
+.point{
+    position: absolute;
+    top: 212px;
+left: 706px;
+width: 536px;
+height: 118px;
+var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-30)/40px var(--unnamed-font-family-bauhaus-hv-bt);
+font: normal normal 900 30px/40px Bauhaus Hv BT;
+
+color: #8E53F0;
+background-color: white;
+font-size: 30px;
+text-align: center;
+border-radius: 5px;
+opacity: 1;
+
+}
+.point p{
+    font-weight: 300;
+    top: 15px;
+}
+.box{
+    /* border: 2px solid #EDEDED; */
+    border-radius: 5px;
+    background-color: #8E53F0;
+    opacity: 0.5;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 615px;
+    left: 437px;
+    width: 253px;
+    height: 117px;
+}
+.box p{
+    margin-left: 15px;
+}
+.watch{
+    z-index: 3;
+    position: absolute;
+    top: 42px;
+left: 706px;
+width: 536px;
+height: 130px;
+background-color: white;
+display: flex;
+justify-content: space-evenly;
+/* border: 5px solid black; */
+border-radius: 5px;
+}
+.welcome1{
+  
+    width: 80px;
+    height: 90px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin-top: 20px;
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    /* vertical-align: middle; */
+    /* left: 39px */
+    background-color: white;
+    opacity: 0.8;
+}
+.welcome1 p{
+    /* position: absolute; */
+    color:#3D087b; 
+    text-align: center;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.welcome{
+    width: 80px;
+    height: 90px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color:#8E53F0;
+    opacity: 0.8;
+}
+.hello1{
+    left: 25px;
+    top: 10px;
+    position: relative;
+    color:#3D087b; 
+  
+    font-size: 30px;
+    margin: 0px;
+}
+.hello2{
+    position: relative;
+    color:#3D087b; 
+    text-align: center;
+    font-size: 30px;
+    left: 2px;
+    top: 10px;
+    margin: 0px;
+    
+ }
+.welcome2{
+    width: 80px;
+    height: 90px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin-top: 20px;
+    background-image: url(./AM_svg.png);
+}
+.welcome2 p{
+    
+    color: white;
+    top: 25px;
+    font-size: 30px;
+}
+.second{
+    z-index: 2;
+    /* Layout Properties */
+    position: absolute;
+top: 55px;
+left: 766px;
+width: 416px;
+height: 130px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.71;
+}
+.third{
+    position: absolute;
+    z-index: 1;
+    top: 67px;
+left: 785px;
+width: 379px;
+height: 130px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.22;
+}
+
